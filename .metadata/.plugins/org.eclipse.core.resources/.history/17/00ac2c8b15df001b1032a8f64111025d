@@ -1,0 +1,8 @@
+package jp.tuyano.spring.sample1;
+
+public class App {
+	public static void main(String[] args) {
+		MyBean bean = new MyBean("This is Bean sample!");
+		System.out.println(bean);
+	}
+}
