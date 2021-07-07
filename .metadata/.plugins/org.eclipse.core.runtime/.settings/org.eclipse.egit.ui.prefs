@@ -1,0 +1,6 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>\u751F\u5F92\u60C5\u5831\u66F4\u65B0\u53EF</message>\n<message>\u65B0\u898F\u751F\u5F92\u767B\u9332\u53EF</message>\n<message>\u751F\u5F92\u60C5\u5831\u7BA1\u7406\u6A5F\u80FD\u8FFD\u52A0\u4E2D</message>\n<message>test</message>\n<message>\u30B3\u30FC\u30B9\u7BA1\u7406\u8FFD\u52A0\u30FB\u753B\u9762\u30B9\u30AF\u30ED\u30FC\u30EB\u53EF\u80FD</message>\n<message>\u30DC\u30BF\u30F3\u5206\u5C90\u6761\u4EF6\u3092\u8FFD\u52A0</message>\n</messages>
+eclipse.preferences.version=1
+repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\n<FilterCache/>
+show_git_prefix_warning=false
+show_home_drive_warning=false
+show_initial_config_dialog=false
