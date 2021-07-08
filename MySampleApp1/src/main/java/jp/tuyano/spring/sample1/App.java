@@ -9,7 +9,7 @@ public class App {
 	
 	public static void main(String[] args) {
 		app = new ClassPathXmlApplicationContext("bean.xml");
-		MyBean bean = (MyBean) app.getBean("mybean1");
+		MyBeanInterface bean = (MyBeanInterface) app.getBean("mybean1");
 		System.out.println(bean);
 	}
 }

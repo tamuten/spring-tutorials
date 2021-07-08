@@ -3,7 +3,7 @@ package jp.tuyano.spring.sample1;
 import java.util.Calendar;
 import java.util.Date;
 
-public class MyBean {
+public class MyBean implements MyBeanInterface {
 	private Date date;
 	private String message;
 	
@@ -17,14 +17,17 @@ public class MyBean {
 		this.message = message;
 	}
 	
+	@Override
 	public Date getDate() {
 		return date;
 	}
 	
+	@Override
 	public String getMessage() {
 		return message;
 	}
 	
+	@Override
 	public void setMessage(String message) {
 		this.message = message;
 	}
