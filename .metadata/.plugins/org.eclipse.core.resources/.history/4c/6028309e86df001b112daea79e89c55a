@@ -1,15 +1,15 @@
 package jp.tuyano.spring.sample1;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App {
 	
 	private static ApplicationContext app;
 	
 	public static void main(String[] args) {
-		app = new AnnotationConfigApplicationContext(MyBean2.class);
-		MyBeanInterface bean = app.getBean(MyBeanInterface.class);
+		app = new ClassPathXmlApplicationContext("bean.xml");
+		MyBeanInterface bean = (MyBeanInterface) app.getBean("mybean1");
 		System.out.println(bean);
 	}
 }

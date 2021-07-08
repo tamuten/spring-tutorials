@@ -454,3 +454,11 @@ java.util.ConcurrentModificationException: null
 2021-07-08 09:42:35,869 [Worker-19: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-07-08 09:42:35,888 [Worker-19: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-07-08 09:42:35,889 [Worker-19: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/takashi1/Documents/workspace/spring-tutorial/MySampleApp1/src/test/resources
+2021-07-08 09:51:23,919 [Worker-19: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-08 09:51:23,920 [Worker-19: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-08 09:51:23,921 [Worker-19: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-08 09:51:23,921 [Worker-19: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/takashi1/Documents/workspace/spring-tutorial/MySampleApp1/src/test/resources
+2021-07-08 09:52:03,421 [Worker-21: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-08 09:52:03,421 [Worker-21: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-07-08 09:52:03,423 [Worker-21: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-08 09:52:03,423 [Worker-21: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/takashi1/Documents/workspace/spring-tutorial/MySampleApp1/src/test/resources

@@ -9,7 +9,7 @@ public class App {
 	
 	public static void main(String[] args) {
 		app = new AnnotationConfigApplicationContext(MyBean2.class);
-		MyBeanInterface bean = app.getBean(MyBeanInterface.class);
+		MyBeanInterface bean = (MyBeanInterface) app.getBean("mybean1");
 		System.out.println(bean);
 	}
 }
